@@ -1037,3 +1037,262 @@ for i in range(a,b+1):
         print(i)
 
 '''
+
+
+# a=10
+# print(f'{a}')
+
+
+
+# a='Input'
+# print(a)
+# a=10,20
+# print(a)
+# print(10,20,sep='@')
+
+
+# a=10
+# b=20
+# print(a,b,sep='@',end=' ')
+# print(a+b)
+# if 10%2==0:
+#     print('Even')
+
+# if 9%2==0:
+#     print('Even')
+# else:
+#     print('odd')
+
+# print(ord('d'))
+
+# print(ord('a')-ord('A'))
+# print(ord('a')+32)
+# if 'a' in 'aeiou':
+# #     print('Yes')
+#
+# a=2024
+# if a%4==0 or a%100!=0 and a%400==0:
+#     print('Leap year')
+# else:
+#     print('Leap year')
+
+# a=30
+# if a%3==0:
+#     print('Fizzz')
+# elif a%5==0:
+#     print('buzz')
+# elif a%5==0 and a%3==0:
+#     print('fizzbuzz')
+
+# a=10
+# if a>0:
+#     if a%2==0:
+#         print('Yes')
+#     else:
+#         print('No')
+# else:
+#     print('Invalid')
+
+# a=1
+# while a<6:
+#     print('Hello')
+#     a+=1
+
+
+#
+# a='1234'
+# print(a[::-1])
+
+
+# 4321
+
+
+#
+# a=1234
+# i=0
+# sum=0
+# while a>0:
+#     rem=a%10
+#     sum=sum*10+rem
+#     a=a//10
+# print(sum)
+
+# a='racecar'
+# print(a[::-1])
+
+
+# a=12321
+# res=0
+# b=a
+# i=0
+# while a>0:
+#     rem=a%10
+#     res=res*10+rem
+#     a=a//10
+# if b==res:
+#     print('Palindrome')
+# else:
+#     print('Not a Plaindrome')
+
+
+
+#
+# a=12345
+# sum=0
+# i=0
+# while a>0:
+#     rem=a%10
+#     print(rem,end=' ')
+#     sum=sum+rem
+#     a=a//10
+# print(sum)
+
+#
+#
+# a=5
+# res=1
+# while a>0:
+#     res=res*a
+#     a=a-1
+# print(res)
+
+
+
+#
+#
+# a=10
+# res=1
+# while a>0:
+#     res=res*a
+#     a=a-1
+# print(res)
+
+
+
+
+# a=12345678
+# i=0
+# while a>0:
+#     rem=a%10
+#     if rem%2==0:
+#         print(rem)
+#     a=a//10
+
+
+
+# a=12345678
+# i=0
+# sum=0
+# while a>0:
+#     rem=a%10
+#     if rem%2==0:
+#         sum=sum+rem
+#     a=a//10
+#
+# print(sum)
+#
+#
+#
+# a='hello'
+# print(a[::-1])
+
+
+#
+#
+# a='Hello'
+# res=' '
+# i=1
+# while i<=len(a):
+#     res=res+a[-i]
+#     i+=1
+# print(res)
+
+
+
+# #145
+# a=145
+# b=a
+# i=0
+# sum=0
+# while a>0:
+#     rem=a%10
+#     fact = 1
+#     while rem>0:
+#
+#         fact=fact*rem
+#         rem=rem-1
+#     sum=sum+fact
+#     a=a//10
+# print(sum)
+
+
+# a=6
+# i=1
+# sum=0
+# while a>=0:
+#     if a%2==0:
+#         sum=sum+a
+#     i=i+1
+# print(sum)
+
+#
+#
+# a=25
+# b=a**0.5
+# c=int(b)
+# d=c*c
+# if a==d:
+#     print('Perfect')
+# else:
+#     print('Not')
+
+
+# a=0
+# b=1
+# print(a,b,end=' ')
+# while a<=20:
+#     c=a+b
+#     print(c,end=' ')
+#     a=b
+#     b=c
+#
+#
+# a=153
+# i=0
+# sum=0
+# res=0
+# b=str(a)
+# c=len(b)
+# while a>0:
+#     rem=a%10
+#     res=a**c
+# sum=sum+res
+# a=a//10
+# print(sum)
+
+
+
+
+# n=10
+# while n>0:
+#     sum=0
+#     a=n%10
+#     sum=sum**2
+#     n=n//10
+#     n=sum
+# if n==1:
+#     print('Happy')
+# else:
+#     print('Not')
+
+
+# 6532.0
+
+# n=6
+# for i in range(n):
+#     for j in range(n):
+#         if i==0 or j==0:
+#             print('*0',end=' ')
+#         else:
+#             print(' ',end=' ')
+#     print(' ')
