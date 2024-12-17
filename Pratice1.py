@@ -604,6 +604,7 @@ it return tuple value of pair in keys and values
 
 '''
 from itertools import zip_longest
+from mimetypes import inited
 
 '''
 
@@ -1380,4 +1381,1528 @@ print(list(even()))
 
 
 
+
+oops
+
+
+object oriented programming system
+
+         1.class
+         2.object
+         3.inheritance
+         4.polymorhims
+         5.abstraction
+         6.Encapsulation
+
+
+
+1.Class
+
+class is a  blueprint or templete which are uded to create the object
+
+
+syntax
+
+class class_name:
+    ststement
+    
+    
+    
+    
+    
+2.object
+
+Object is a instance of a class or real time entity
+
+
+
+syntax
+
+object_name=class_name
+
+
+
+
+3.Inheritance
+
+
+inheritance properties is used one class to another class is called inheritance
+
+          1.Single level inheritance
+          2.multi level inheritance
+          3.Multiple inheritance
+          4.Hirarchical inheritance
+          5.Hybrid inheritance
+          
+          
+1.Single Level Inheritance
+
+
+the inheritance propertied used one super class and subclass is called single level inheritance
+
+
+
+
+class Father:
+    def land(self):
+        print('land')
+class son:
+    def house(self):
+        print('House')
+s=son()
+s.house()
+f=Father()
+f.land()
+
+
+
+2.Multi-level inheritance
+
+
+inheritance propertires one derived class to another derived class is called mult-level
+
+
+
+
+class GrandFather:
+    def grandfather(self):
+        print('Gold')
+class Father(GrandFather):
+    def father(self):
+        print('land')
+class Son(Father):
+    def son(self):
+        print('House')
+g=GrandFather()
+g.grandfather()
+
+f=Father()
+f.father()
+
+s=Son()
+s.son()
+
+
+
+
+3.Multiple inheritance
+
+
+
+
+class Father:
+    def land(self):
+        print('land')
+class Mother:
+    def gold(self):
+        print('gold')
+class Son(Father,Mother):
+    def house(self):
+        print('House')
+
+s=Son()
+s.house()
+s.gold()
+s.land()
+
+
+
+4.Hirarchical inheritance
+
+
+class Father:
+    def land(self):
+        print('Land')
+class Son1(Father):
+    def house1(self):
+        print('House1')
+class Son2(Father):
+    def house2(self):
+        print('House2')
+
+s1=Son1()
+s2=Son2()
+s1.land()
+s1.house1()
+s2.land()
+s2.house2()
+
+
+
+
+5..Hybird
+
+It is inheritence properties combination of multiple and hirarachical
+
+
+
 '''
+
+
+'''
+class function_name():
+      code
+      
+      
+object_name=class_name
+
+
+
+inheritance
+
+
+
+1.datatype
+
+1.individual datatype
+2.collection datatype
+
+
+
+1.individual datatype
+
+1.int
+2.flaot
+3.boolean
+4.complex
+
+
+1.int-used without decimal point
+2.float-using with decimal point
+3.boolean-it is either of true or false
+4.complex-it is combination of real and imanignary number
+
+
+
+
+2.collection datatype
+
+1.string
+2.list
+3.tuple
+4.set
+5.dictionary
+
+
+
+
+1.string
+it is collection of a  character
+bountry is ""
+it is immutable
+ordered datatype
+indexing and slicing
+default value ''
+
+
+
+types
+
+1.upper()
+s.upper()
+
+2.lower()
+s.lower()
+
+3.swapcase()
+s.swapcase()
+
+
+4.capitalize()
+s.capitalize()
+
+5.title()
+s.title()
+
+
+6.index()
+s.index(element,[s1:ei])
+
+7.rindex()
+
+
+8.find()
+s.find(element.si,ei)
+
+
+9.rfind()
+s.rfind(element,si,ei)
+
+
+10.count()
+s.count(element,si:ei)
+
+
+11.split()
+s.split(character,max_split)
+
+
+12.rsplit()
+s.rsplit(character,max_split)
+
+
+13.strip()
+s.strip(character)
+
+
+14.rstrip()
+s.rstrip(character)
+
+
+15.lstrip()
+s.lstrip(character)
+
+
+16.join()
+s.join(iterable)
+
+
+17.startswith()
+s.startswith(substr,si,ei)
+
+
+18.endswith()
+s.endswith(substr,si,ei)
+
+
+19.isupper()
+s.isupper()
+
+20.islower()
+s.islower()
+
+21.isalpha()
+s.isalpha()
+
+
+22.isalnum()
+s.isalnum
+
+23.isdigit()
+s.isdigit()
+
+24.isspace()
+s.isspace()
+
+
+25.isidentifier()
+s.isidentifier()
+
+
+26.replace()
+s.replace(old character,new charcter)
+
+
+
+
+
+
+
+2.List
+
+it is collection of homogenous and hetrogenous
+it boundry is []
+ordered datadype
+indexing and slicing
+mutable datatype
+default value is []
+
+
+
+1.append()
+s.append()
+
+
+2.extend()
+s.extend()
+
+
+3.insert()
+s.insert(index,element)
+
+
+4.index
+s.index()
+
+
+5.remove()
+
+
+6.pop()
+s.pop(index)
+
+
+7.clear()
+s.clear()
+
+
+8.count()
+s.count()
+
+
+9.sort()
+
+s,sort(key=function,true/false)
+
+
+10.reverse()
+s.reverse()
+
+
+11.copy()
+
+1.normal copy
+lst2=lst1
+
+
+2.shallow copy()
+lst2=lst1.copy()
+
+
+3.deepcopy()
+
+from copy import deepcopy
+lst2=deepcopy(lst1)
+
+
+
+
+---------------------------------------------------------------------------------------
+
+3.tuple()
+it ia a collection of homogenous and hetrogenous
+ordered datatype
+indexing and slicing
+boundry is ()
+immutable datatype
+default value is ()
+
+
+
+1.index()
+s.index(element)
+
+
+2.count()
+s.count(element)
+
+
+
+-------------------------------------------------------------------------------------------------
+
+
+4.srt
+it is a collection of homogenous and hetrogenous
+boundry is {}
+unorded datatype
+mutable
+default value set()
+
+
+
+1.union()
+baseset.union(iterable)
+
+2.update()
+baseset.update(iterable)
+
+3.intersection()
+basest.intersection(iterable)
+
+
+4.update_intersection()
+basest.update_intersection(iterable)
+
+5.difference()
+baseset.difference(iterable)
+
+6.update_difference()
+basest.update_difference(iterable)
+
+7.symmetric_difference()
+baseset.symmertic_difference(iterable)
+
+8.update_symmertic_difference()
+baseset.update_symmertric_difference(iterable)
+
+
+
+
+
+
+1.add()
+
+
+
+2.update()
+
+
+
+3.remove()
+
+
+4.discard()
+
+
+
+5.pop()
+
+
+
+6.clear()
+
+
+
+7.issuperset()
+
+
+
+
+8.issubset
+
+
+------------------------------------------------------------------------------
+
+
+
+
+5.dictionary
+it is pair of keys and values
+seperate by cooma
+key an value between colon
+ordered datatype
+boundery is {}
+default value is {}
+
+
+
+
+
+1.keys()
+s.keys()
+
+
+2.values()
+s.values()
+
+
+3.items()
+s.items()
+
+
+4.get()
+s.get()
+
+
+5.update()
+s.update()
+
+6.pop()
+s.pop()
+
+
+7.popitem()
+s.popitem()
+
+
+8.clear()
+s.clear()
+
+9.fromkeys()
+s.fromkeys()
+
+
+10.setdefault()
+
+s.setdefault()
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+2.control structure
+
+1.conditional statement
+2.control statement
+
+
+
+1.conditional statement
+
+1.if
+2.if elif
+3.if else
+4.nested if
+
+
+
+
+
+
+1.if
+
+a=10
+if a>=10:
+   print('Yes)
+
+
+
+
+2.if elif
+
+a=10
+if a==10:
+    print(Yes)
+elif a>=10:
+    print(Yes Yes)
+elif a<=10:
+   print(Yes Yes Yes)
+   
+   
+   
+3.if else
+
+a=10
+if a=10:
+   print('Yes')
+else:
+   print('No')
+   
+   
+   
+   
+4.Nested if
+
+a=10
+if a==10:
+    if a>=10:
+        print(Yes)
+    else:
+        print('No)
+else:
+   print(Invalid)
+   
+   
+   
+   
+   
+   
+   
+   
+2.control statement
+
+
+1.while
+2.for
+
+
+
+1.while
+
+a=10
+i=0
+rem=0
+while a>=0:
+   rem=rem-a
+   a-=1
+print(rem)
+
+
+
+
+
+2.for
+
+for i in range(1,11):
+    print(i)
+    
+    
+    
+    
+---------------------------------------------------------------------------------------------
+
+
+
+
+3.Exception Handling
+
+
+1.try
+2.except
+3.else
+4.finally
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+oops
+
+1.class
+2.object
+3.inheritance
+4.polymorishm
+5.abstraction
+6.Encapsulation
+
+
+
+
+
+
+1.class
+
+class inner():
+    def __init__(self):
+        print('Hello')
+    class outer():
+        def __init__(self):
+            print('Bye')
+    o1=outer()
+    o1.__init__()
+i1=inner()
+i1.__init__()
+
+
+
+2.object
+
+
+class inner():
+    def add(self,a,b):
+        print(a+b)
+    add(10,20)
+i1=inner()
+i1.add()
+
+
+3.inheritance
+
+1.Single level inheritance
+2.Multi level inheritance
+3.Multiple inheritance
+4.hierarchical inheritance
+5.Hybrid inheritance
+
+
+
+1.Single level inheritance
+
+   
+class Father():
+    def land(self):
+        print('Land')
+class Son(Father):
+    def house(self):
+        print('House')
+f=Father()
+f.land()
+s=Son()
+s.land()
+s.house()
+
+
+
+2.Multi level inheritance
+
+
+class Grandfather():
+    def gold(self):
+        print('Gold')
+class Father(Grandfather):
+    def land(self):
+        print('Land')
+class Son(Father):
+    def house(self):
+        print('House')
+g=Grandfather()
+g.gold()
+f=Father()
+f.gold()
+f.land()
+s=Son()
+s.house()
+s.land()
+s.gold()
+
+
+
+
+3.Multiple inheritance
+
+
+
+class Father():
+    def land(self):
+        print('Land')
+class Mother():
+    def gold(self):
+        print('Gold')
+class Son(Father,Mother):
+    def house(self):
+        print('House')
+f=Father()
+f.land()
+m=Mother()
+m.gold()
+s=Son()
+s.land()
+s.gold()
+s.house()
+
+
+
+4.hierarchical
+
+
+
+
+class Father():
+    def land(self):
+        print('Land')
+class Son1(Father):
+    def house(self):
+        print('House1')
+class Son2(Father):
+    def house(self):
+        print('House2')
+f=Father()
+f.land()
+s=Son1()
+s.land()
+s.house()
+s1=Son2()
+s1.land()
+s1.house()
+
+
+
+5.Hybird
+
+
+
+class Animal():
+    def sound(self):
+        print('Sound')
+class Lion(Animal):
+    def one(self):
+        print('Lion')
+class Tiger(Animal):
+    def two(self):
+        print('Tiger')
+class Liger(Lion,Tiger):
+    def three(self):
+        print('Liger')
+a=Animal()
+a.sound()
+
+l=Lion()
+l.sound()
+l.one()
+
+t=Tiger()
+t.sound()
+t.two()
+
+l1=Liger()
+l1.sound()
+l1.one()
+l1.two()
+l1.three()
+
+
+
+
+
+4.Poylmormishm
+
+
+1.respect with operator
+2.respect with function
+3.rescept with inheritance
+
+
+
+
+
+
+
+1.respect with operator
+
+1.+
+
+print(20+30)
+print('Computer ' + 'Science')
+
+2.-
+
+
+print(30-10)
+print({1,2,3,4}-{1,2,3})
+
+
+3.*
+
+print(10*20)
+print('=' * 10)
+
+
+
+
+5.Encapsulation
+
+
+1.public
+2.protected
+3.private
+
+
+
+1.Public
+
+
+class Sample:
+    def land(self):
+        print('Land')
+s=Sample()
+s.land()
+
+
+
+
+
+class Sample:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+s=Sample(10,20)
+print(s.a)
+print(s.b)
+
+
+2.Protected
+
+
+
+class Sample():
+    def __init__(self,name,pin):
+        self.name=name
+        self._pin=pin
+s=Sample('Dinga',1234)
+print(s.name)
+print(s._pin)
+
+
+
+3.Private
+
+
+class Sample():
+    def __init__(self,name,pin):
+        self.name=name
+        self.__pin=pin
+s=Sample('Dinga',1334)
+print(s.name)
+print(s.__pin)
+
+
+
+class Sample():
+    def __init__(self,name,pin):
+        self.name=name
+        self.__pin=pin
+    def get_pin(self):
+        print(self.__pin)
+    def set_pin(self,new_pin):
+        self.__pin=new_pin
+s=Sample('Dinga',12345)
+print(s.name)
+s.get_pin()
+s.set_pin(123123)
+s.get_pin()
+
+
+
+
+6.Abstraction
+
+
+from abc import ABC,abstractmethod
+class Demo(ABC):
+    @abstractmethod
+    def chat(self):
+        pass
+
+    @abstractmethod
+    def reels(self):
+        pass
+
+    @abstractmethod
+    def story(self):
+        pass
+
+    @abstractmethod
+    def calls(self):
+        pass
+
+
+class Instragram(Demo):
+    def chat(self):
+        print('Chatting...')
+    def reels(self):
+        print('Reels...')
+    def story(self):
+        print('Story...')
+    def calls(self):
+        print('Calls...')
+i=Instragram()
+i.chat()
+i.reels()
+i.story()
+i.calls()
+
+
+
+
+'''
+
+
+
+
+
+# n=153
+# a=n
+# b=str(a)
+# c=len(b)
+# sum=0
+#
+# i=0
+# while n>0:
+#     rem=n%10
+#     sum=sum+rem**c
+#     n=n//10
+# if a==sum:
+#     print('Amstrong')
+# else:
+#     print('Not')
+
+
+
+
+
+# a={'virat kohli','ms dhoni','csk mi rcb rr','ashwin','marnus'}
+# dic={}
+# for i in a:
+#     b=i.split()
+#     if len(b)==2 or len(b)==3 or len(b)==4 or len(b)==5:
+#         dic[i]=len(i)
+#     else:
+#         dic[i]=i[::-1]
+# print(dic)
+
+
+
+# a='AABBBCCDAB'
+# b=[]
+# count=1
+# for i in range(1,len(a)):
+#     if a[i]==a[i-1]:
+#         count+=1
+#     else:
+#         b.append(str(count) +a[i-1])
+# b.append(str(count) +a[i-1])
+# print(b)
+
+
+
+# Lambda
+
+
+# a=lambda a,b,c,d:a+b+c+d
+# print(a(10,20,30,40))
+
+
+
+
+# a=lambda n,no:no[::-1]
+# print(a("hello","hello"))
+
+
+
+
+# map
+
+# lst=[1,2,3,4,5,6,7,8,9,10]
+#
+# a=lambda sq:sq**2
+# print(list(map(a,lst)))
+
+
+# n=53
+# res=True
+# i=2
+# while n>i:
+#     if n%i==0:
+#         res=False
+#         break
+#     i+=1
+# if res==True:
+#     print("Prime")
+# else:
+#     print("Not")
+
+
+
+
+# n=53
+# icount=0
+# count=0
+# i=2
+# while n>i:
+#     if n%i==0:
+#         icount=icount+1
+#     else:
+#         count=count+1
+# print(icount)
+#
+
+
+
+# arr1=[2,9,12,18]
+# arr2=[3,5,11,20]
+# c=arr1+arr2
+# print(sorted(c))
+
+
+
+# a=5
+# count=0
+# for i  in range(1,a+1):
+#     if a%i==0:
+#         count=count+1
+# if count==2:
+#     print("Prime")
+# else:
+#     print("Not")
+
+
+
+
+# def prime(n):
+#     count = 0
+#     for i in range(1,n+1):
+#         if n%i==0:
+#             count=count+1
+#     if count==2:
+#         print("Prime")
+#     else:
+#         print("Not")
+# prime(23)
+
+
+
+#
+# def prime(n):
+#     count=0
+#     for i in range(2,n+1):
+#         if n%i==0:
+#             count=count+1
+#     if count==1:
+#         print("Prime")
+#     else:
+#         print("Not Prime")
+# prime(int(input("Enter:")))
+
+
+# 1 to 20     [2,3,5,7,11,13,17,19]
+
+
+
+# for i in range(1,21):
+#     if i>1:
+#         res=True
+#         for j in range(2,i):
+#             if i%j==0:
+#                 res=False
+#                 break
+#         if res==True:
+#             print(i)
+
+
+
+
+
+#
+# n=21
+# for i in range(1,n):
+#     if i>1:
+#         res=True
+#         for  j in range(2,i):
+#             if i%j==0:
+#                 res=False
+#                 break
+#         if res==True:
+#             print(i)
+
+
+# n=21
+# for i in range(1,n):
+#     if i>1:
+#         res=True
+#         for j in range(2,i):
+#             if i%j==0:
+#                 res=False
+#                 break
+#         if res==True:
+#             print(i)
+
+
+
+
+# #
+# n=50
+# a=[]
+# for i in range(1,n+1):
+#     if i>1:
+#         res=True
+#         for j in range(2,i):
+#             if i%j==0:
+#                 res=False
+#                 break
+#         if res==True:
+#             a.append(i)
+# print(a)
+
+
+
+#
+#
+#
+# def prime(n):
+#     a=[]
+#     for i in range(1,n+1):
+#         if i>1:
+#             res=True
+#             for j in range(2,i):
+#                 if i%j==0:
+#                     res=False
+#                     break
+#             if res==True:
+#                 a.append(i)
+#     print(a)
+# prime(50)
+
+
+
+
+
+
+#
+#
+# arr1=[2,9,12,18]
+# arr2=[3,5,11,20]
+# arr3=[]
+# a=len(arr1)
+# b=len(arr2)
+# i=0
+# j=0
+# while i<a and j<b:
+#     if arr1[i]<arr2[j]:
+#         arr3.append(arr1[i])
+#         i+=1
+#     else:
+#         arr3.append(arr2[j])
+#         j+=1
+# print(arr3)
+
+
+
+
+
+
+
+
+
+# arr1=[2,9,12,18]
+# arr2=[3,5,11,20]
+# arr3=[]
+# a=len(arr1)
+# b=len(arr2)
+# i=0
+# j=0
+# while i<a and j<b:
+#     if arr1[i] < arr2[j]:
+#         arr3.append(arr1[i])
+#         i+=1
+#     else:
+#         arr3.append(arr2[j])
+#         j+=1
+# print(arr3)
+#
+
+
+
+#
+#
+# arr1=[2,9,12,18]
+# arr2=[3,5,11,20]
+# arr=[]
+# a=len(arr1)
+# b=len(arr2)
+# i=0
+# j=0
+# while i<a and j<b:
+#     if arr1[i]<arr2[j]:
+#         arr.append(arr1[i])
+#         i+=1
+#     else:
+#         arr.append(arr2[j])
+#         j+=1
+# print(arr)
+
+
+
+
+# def remove(n):
+#     a=n
+#     b=""
+#     for i in a:
+#         if i not in b:
+#             b=b+i
+#     print(b)
+# remove("racecar")
+
+
+
+# arr=[1,2,3]
+# [1] [1,2] [1,2,3]
+
+#
+# a=[1,2,3]
+# b=[]
+# c=len(a)
+# for i in range(c):
+#     for j in range(i,c):
+#         b.append(a[i:j+1])
+# print(b)
+
+#
+#
+# def arr(n):
+#     a=n
+#     b=[]
+#     c=len(a)
+#     for i in range(c):
+#         for j in range(i,c):
+#             b.append(a[i:j+1])
+#     return b
+# print(arr([1,2,3]))
+
+
+
+
+
+# a = "abcabcbb"
+# b=""
+# c=len(a)
+# for i in a:
+#     if i not in b:
+#         b=b+i
+# print(b)
+
+
+
+
+
+
+# a = "bbbbb"
+# b=""
+# c=len(a)
+# for i in a:
+#     if i not in b:
+#         b=b+i
+# print(len(b))
+#
+
+
+
+
+# def repeat(n):
+#     a=n
+#     b=""
+#     for i in a:
+#         if i not in b:
+#             b=b+i
+#         print(len(b))
+# repeat("bbbbb")
+
+
+
+
+# print(1+2)
+# print(1+'2')
+
+
+# class A:
+#     val=1
+# class B(A):
+#     pass
+# class C(A):
+#     pass
+# a=A()
+# print(A.val,B.val,C.val)
+# B.val=2
+# print(A.val,B.val,C.val)
+# A.val=3
+# print(A.val,B.val,C.val)
+
+
+
+#
+# data=50
+# try:
+#     print(data/0)
+# except ZeroDivisionError:
+#     print("Canntot div by 0")
+# else:
+#     print("Print")
+# try:
+#     print(data/5)
+# except:
+#     print("yes")
+# else:
+#     print("GFD")
+
+
+
+
+
+
+
+# r=lambda q:q*2
+# s=lambda q:q*3
+# x=2
+# x=r(x)
+# x=s(x)
+# x=r(x)
+# print(x)
+
+
+
+
+# print(4.5//2)
+
+
+
+
+#
+# a=True
+# b=False
+# c=False
+# if 0 or 1 and 0:
+#     print(1)
+# elif 0 or 0 and 0:
+#     print(2)
+# elif 0 or 0 or 1 and 0:
+#     print(3)
+# else:
+#     print(4)
+
+
+
+
+
+
+# def num():
+#     return True,"hello",1
+# print(num,type(num))
+0
+
+
+# print(int(21.13))
+
+
+#
+# for i in range(2):
+#     for i in range(4,6):
+#         print(i)
+
+
+
+
+# count=1
+# def do():
+#     global  count
+#     for i in range(3):
+#         count=count+1
+# do()
+# print(count)
+
+
+
+
+
+# l=[1,2,3,4]
+# l.append([5,6,7,8])
+# l.extend([6,7,8])
+# print(len(l))
+
+
+
+#
+#
+#
+# dic={1:1,2:2,3:3}
+# dic[1]+=10
+# del dic[1]
+# dic[1]='10'
+# del dic[2]
+# dic.pop(3)
+# dic[2]=0
+# dic['2']=3
+# dic['2']+=1
+# dic.pop(2)
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
